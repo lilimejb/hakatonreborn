@@ -7,5 +7,7 @@
 Приятного аппетита!<br/>
 <br/>
 <br/>
-# Ссылка на бота https://t.me/stolovkatest_bot
-# Мои контакты <br/>tg-https://t.me/lilimejb <br/>vk-https://vk.com/lilimejb
+# Ссылка на бота
+## https://t.me/stolovkatest_bot <br/>
+# Мои контакты 
+## tg-https://t.me/lilimejb <br/>vk-https://vk.com/lilimejb 
