@@ -12,4 +12,4 @@
 <br/>
 <br/>
 # Ссылка на бота https://t.me/stolovkatest_bot
-# Мои контакты если что-то пойдёт не так <br/>tg-https://t.me/lilimejb <br/>vk-https://vk.com/lilimejb
+# Мои контакты <br/>tg-https://t.me/lilimejb <br/>vk-https://vk.com/lilimejb
