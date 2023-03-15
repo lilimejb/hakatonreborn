@@ -22,10 +22,20 @@
 
 - ### В корзину можно добавить отрицательное количество товаров
     Решение проблемы:<br/>
-    > Изминить в файле handlers/dish_page.py строку 35
+    > Изменить в файле handlers/dish_page.py строки 35-36
     ```py
-    if action == "MINUS" and int(amount) - 1 > 0:
+    if action == "MINUS" !!!and int(amount) - 1 > 0!!!:
         amount = int(amount) - 1
+    ```
+- ### При оплате заказа корзина не отчищается атоматически
+    Решение проблемы:<br/>
+    > Изменить в файле handlers/order.py строки 41-44
+    ```py
+    for cart in carts:
+        if str(cart.get_userid()) == current_user:
+            !!!carts.remove(cart)!!!
+            current_cart = dict(eval(repr(cart)))
+            break
     ```
 - ### При частом нажатии на кнопки бот начинает долго загружаться
     Решение проблемы:<br/>
