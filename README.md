@@ -25,7 +25,7 @@
 ```py
 Изминить в файле handlers/dish_page.py строку 35
 
-if action == "MINUS" and amount > 0:
+if action == "MINUS" and int(amount) - 1 > 0:
     amount = int(amount) - 1
 ```
   * ## При частом нажатии на кнопки бот начинает долго загружаться
